@@ -6,8 +6,6 @@
 
 QuerySheriff is a PostgreSQL performance monitoring tool. It monitors queries, lock waits, long transactions and server logs, and uses query tags in SQL comments to trace each query back to the code that sent it.
 
-![The Queries page: query volume and latency over seven days, and the queries that took the most total time](https://raw.githubusercontent.com/querysheriff/.github/master/profile/queries.png)
-
 With it you can:
 
 - See which queries take the most time, with their captured runs and execution plans
@@ -19,6 +17,12 @@ With it you can:
 ## Screenshots
 
 <table>
+  <tr>
+    <td colspan="2"><img src="https://raw.githubusercontent.com/querysheriff/.github/master/profile/queries.png" alt="Queries: query volume and latency over seven days, and the queries that took the most total time"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">Queries</td>
+  </tr>
   <tr>
     <td><img src="https://raw.githubusercontent.com/querysheriff/.github/master/profile/query-detail-1.png" alt="Query detail: the normalized query as a collapsible outline, and how often it ran"></td>
     <td><img src="https://raw.githubusercontent.com/querysheriff/.github/master/profile/query-detail-2.png" alt="Query detail: average duration over time and captured runs"></td>
