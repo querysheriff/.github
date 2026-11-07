@@ -4,7 +4,7 @@
 
 <h1 align="center">QuerySheriff</h1>
 
-QuerySheriff is a PostgreSQL performance monitoring tool. It monitors queries, lock waits, long transactions and server logs, and uses query tags to trace each query back to the code that sent it.
+QuerySheriff is a PostgreSQL performance monitoring tool. It monitors queries, lock waits, long transactions and server logs, and uses query tags to trace each query back to the application code that sent it.
 
 With it you can:
 
@@ -12,7 +12,7 @@ With it you can:
 - Find out which session blocked which, and for how long
 - Follow a long transaction on a timeline of every query it ran
 - Search PostgreSQL logs by severity and category
-- Get Slack alerts on crashes, lock waits, slow queries and long transactions, plus a weekly report
+- Get Slack alerts on crashes, lock waits, slow queries and long transactions, plus a weekly performance report
 
 ## Screenshots
 
